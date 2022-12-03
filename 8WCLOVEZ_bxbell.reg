@@ -1764,3 +1764,287 @@ ea,b9,4f
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
 "NetworkThrottlingIndex"=dword:ffffffff
 "SystemResponsiveness"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"DefaultTTL"=dword:00000080
+"EnableICMPRedirect"=dword:00000001
+"EnableDynamicBacklog"=dword:00000001
+"AllowUnqualifiedQuery"=dword:00000001
+"DisableMediaSenseEventLog"=dword:00000001
+"DisableRss"=dword:00000000
+"DisableTcpChimneyOffload"=dword:00000000
+"DnsOutstandingQueriesCount"=dword:000003e8
+"EnableAddrMaskReply"dword:00000000
+"EnableBcastArpReply"dword:00000000
+"EnableConnectionRateLimiting"=dword:00000000
+"EnableHeuristics"=dword"00000001
+"EnableIPAutoConfigurationLimits"=dword:00000000
+"QualifyingDestinationThreshold"=dword:ffffffff
+"StrictTimeWaitSeqCheck"=dword:00000001
+"SynAttackProtect"=dword:00000000
+
+[HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpMaxDataRetransmissions"=dword:00000005
+"EnableDCA"=dword:00000001
+"EnableTCPA"=dword:00000000
+"KeepAliveInterval"=dword:3e8
+"TcpCreateAndConnectTcbRateLimitDepth"=dword:00000000
+"TcpTimedWaitDelay"=dword:0000001e
+"MaxHashTableSize"=dword:00010000
+"IGMPLevel"=dword:00000002
+"MaxFreeTcbs"=dword:00010000
+"ArpTRSingleRoute"=dword=00000000
+"TcpMaxSendFree"=dword:0000ffff
+"DeadGWDetectDefault"=dword:00000001
+"EnableWsd"=dword:00000000
+"EnablePMTUDiscovery"=dword:00000001
+"EnablePMTUBHDetect"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"Tcp123Opts"=dword:1
+"TcpSendSegmentSize"=dword:599
+"TcpRecvSegmentSize"=dword:599
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"ForwardBufferMemory"=dword:249F0
+"NumForwardPackets"=dword:5DC00
+"MaxNumForwardPackets"=dword:5DC00
+"MaxForwardBufferMemory"=dword:249F0
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"TcpWindowSize"=dword:8192
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"SvcHostSplitThresholdInKB"=dword:8388608
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{4a62b88f-fff7-486e-b9ea-5d853adaadbe}]
+"TcpAckFrequency"=dword:2
+"TCPDelAckTicks"=dword:25
+"TCPNoDelay"=dword:1
+"TCPNoDelAckTicks"=dword:0
+"TCPInitialRtt"=dword:0000012c
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"GlobalMaxTcpWindowSize"=dword:3BCE0
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\QoS]
+"Do not use NLA"="1"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"DelayedAckFrequency"=dword:00000001
+"DelayedAckTicks"=dword:00000001
+"CongestionAlgorithm"=dword:00000001
+"MultihopSets"=dword:0000000f
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Winsock]
+"UseDelayedAcceptance"=dword:00000000
+"MaxSockAddrLength"=dword:00000010
+"MinSockAddrLength"=dword:00000010
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters]
+"MaxWorkItems"=dword:00002000
+"MaxMpxCt"=dword:000800
+"MaxRawWorkItems"=dword:000200
+"MaxFreeConnections"=dword:00000064
+"MinFreeConnections"=dword:00000020
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters]
+"MaxCmds"=dword:000800
+"MaxThreads"=dword:0000001e
+"MaxCollectionCount"=dword:00000020
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters]
+"DisableBandwidthThrottling"=dword:000000001
+"DisableLargeMtu"=dword:000000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"IRPStackSize"=dword:00000030
+"Size"=dword:00000003
+"SizeReqBuf"=dword:14596
+
+[HKEY_CURRENT_USER\Software\Microsoft\CurrentVersion\Internet Settings]
+"DnsCacheEnables"=dword:00000001
+"DnsCacheEntries"=dword:00000200
+"DnsCacheTimeout"=dword:00000060
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters\Security]
+"SecureDSCommunication"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]
+"TCPNoDelay"=dword:0000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSMQ\Parameters]
+"IgnoreOSNameValidation"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+"CacheHashTableBucketSize"=dword:00000001
+"CacheHashTableSize"=dword:00000180
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"MaxConnectionsPerServer"=dword:00000012
+"MaxConnectionsPer1_0Server"=dword:0000012
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Psched]
+"NonBestEffortLimit"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}\00x]
+"*SpeedDuplex"="0"
+"*FlowControl"="3"
+"*RSS"="1"
+"*TCPConnectionOffloadIPv4"="1"
+"*TCPConnectionOffloadIPv6"="1"
+"*IPChecksumOffloadIPv4"="3"
+"*TCPChecksumOffloadIPv4"="3"
+"*TCPChecksumOffloadIPv6"="3"
+"*UDPChecksumOffloadIPv4"="3"
+"*UDPChecksumOffloadIPv6"="3"
+"*LsoV1IPv4"="1"
+"*LsoV2IPv4"="1"
+"*LsoV2IPv6"="1"
+"*TCPUDPChecksumOffloadIPv4"="3"
+"*TCPUDPChecksumOffloadIPv6"="3"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
+"FastSendDatagramThreshold"=dword:000005dc
+"FastCopyReceiveThreshold"=dword:000005dc
+
+[HKEY_CLASSES_ROOT]
+"Internet Connection/DELAY"=hex(b):00,00,00,00,00,00,00,00,
+
+[HKEY_LOCAL_MACHINE\SYSTEM]
+"Ram"=hex(b):00,20,00,00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM]
+ CPU_Bitrate=hex(b):00,90,6f,4a,00,00,00,00
+ GPU_Level=hex(b):00,90,7f,4a,00,00,00,00
+ SSD_Bitrate=hex(b):00,94,7a,2f,00,00,00,00
+ html_olescript=hex(b):00,90,3f,00,00,00,00,00
+ Memory=hex(b):00,90,7f,4a,00,00,00,00
+ mhtml_olescript=hex(b):00,90,3f,00,00,00,00,00
+ xml_olescript-hex(b):00,90,3f,c8,29,63,75,98
+ Freemem=hex(b):24,00,00,00,00,00,00,00|
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"DisablePagingExecutive"=dword:00000001
+"PhysicalAddressExtension"=dword:0000001
+"SystemPages"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"CopyBufferSize"=dword:00010000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"FeatureSettingsOverride"=dword:00000003
+"FeatureSettingsOverrideMask"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\PriorityControl]
+"ConvertibleSlateMode"=dword:00000000
+
+[HKEY_CURRENT_USER\Network]
+"Network_Environmevt:TCP_ADDRESS"=dword:e1
+
+[HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\CentralProcessor]
+"ADDRESS_CACHE:HEX_Address"=dword:1f
+
+[HKEY_CURRENT_USER]
+"Max_Connections_Per_Server/Delay_Milliseconds"=hex(b):0
+"Max_Connections_Per_Server/Prefetch_Delay/Milliseconds"=hex(b):1
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\PriorityControl]
+"IRQ8Priority"=dword:00000001
+"IRQ4294967286Priority"=dword:00000002
+"IRQ4294967287Priority"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NDIS\Parameters]
+"RssBaseCpu"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:ffffffff
+"SystemResponsiveness"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Audio]
+"Scheduling Category"="Medium"
+"GPU Priority"=dword:00000008
+"Affinity"=dword:00000000
+"Clock Rate"=dword:00002710
+"SFIO Priority"="Normal"
+"Priority"=dword:00000006
+"Background Only"="True"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Capture]
+"Scheduling Category"="Medium"
+"GPU Priority"=dword:00000008
+"Affinity"=dword:00000000
+"Clock Rate"=dword:00002710
+"SFIO Priority"="Normal"
+"Priority"=dword:00000005
+"Background Only"="True"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\DisplayPostProcessing]
+"Affinity"=dword:00000000
+"Background Only"="True"
+"BackgroundPriority"=dword:00000008
+"Clock Rate"=dword:00002710
+"GPU Priority"=dword:00000008
+"Priority"=dword:00000008
+"Scheduling Category"="High"
+"SFIO Priority"="Normal"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Distribution]
+"Scheduling Category"="Medium"
+"GPU Priority"=dword:00000008
+"Affinity"=dword:00000000
+"Clock Rate"=dword:00002710
+"SFIO Priority"="Normal"
+"Priority"=dword:00000004
+"Background Only"="True"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Low Latency]
+"Scheduling Category"="Medium"
+"GPU Priority"=dword:00000008
+"Affinity"=dword:00000000
+"Clock Rate"=dword:00002710
+"SFIO Priority"="Normal"
+"Priority"=dword:00000006
+"Background Only"="True"
+"Latency Sensitive"="True"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Playback]
+"Scheduling Category"="Medium"
+"GPU Priority"=dword:00000008
+"Affinity"=dword:00000000
+"BackgroundPriority"=dword:00000004
+"Clock Rate"=dword:00002710
+"SFIO Priority"="Normal"
+"Priority"=dword:00000003
+"Background Only"="False"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Pro Audio]
+"Scheduling Category"="High"
+"GPU Priority"=dword:00000008
+"Affinity"=dword:00000000
+"Clock Rate"=dword:00002710
+"SFIO Priority"="Normal"
+"Priority"=dword:00000001
+"Background Only"="False"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Window Manager]
+"Scheduling Category"="Medium"
+"GPU Priority"=dword:00000008
+"Affinity"=dword:00000000
+"Clock Rate"=dword:00002710
+"SFIO Priority"="Normal"
+"Priority"=dword:00000005
+"Background Only"="True"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
+"Affinity"=dword:00000000
+"Background Only"="False"
+"Clock Rate"=dword:00002710
+"GPU Priority"=dword:00000008
+"Priority"=dword:00000006
+"Scheduling Category"="High"
+"SFIO Priority"="High"
