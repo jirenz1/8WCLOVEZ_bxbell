@@ -72,6 +72,7 @@ Windows Registry Editor Version 5.00
 "MaxThreads"=dword:0000001e
 "MaxCollectionCount"=dword:00000020
 
+
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters]
 "DisableBandwidthThrottling"=dword:000000001
 "DisableLargeMtu"=dword:000000000
